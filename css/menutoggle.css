@@ -71,6 +71,11 @@ body {
         position: relative;
     }
 
+    .bg-image {
+        width: 100%;
+        overflow: hidden;
+    }
+
     .bg-image nav ul {
         position: absolute;
         right: 0;
@@ -97,7 +102,7 @@ body {
     .bg-image .deskripsi h2 {
         font-size: 35px;
         text-align: center;
-        transform: translate(-75px, -35px);
+        transform: translate(-120px, -35px);
         text-shadow: 5px 2px 5px white;
     }
 
