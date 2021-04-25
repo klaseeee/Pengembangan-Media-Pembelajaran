@@ -129,6 +129,7 @@ body {
         background-attachment: fixed;
         /* background-position-y: 40px; */
         background-size: cover;
+        overflow: hidden;
         /* border: 1px solid black; */
     }
     
