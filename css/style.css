@@ -178,21 +178,48 @@ nav {
 
 /* media pembelajaran */
 .media {
-    height: 100vh;
+    min-height: 170vh;
     background-image: url(../img/bg-2.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.media .materi {
-    height: 80vh;
+.media .materi {    
+    /* border: 1px solid blue; */
+    height: 100%;
+}
+
+.media .materi .pert1 {
+    position: relative;
     width: 100%;
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-around;
-    transform: translateY(75px)
+    transform: translateY(75px);
+}
+
+.media .materi .pert1 h3 {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50px);
+}
+
+.media .materi .pert2 {
+    position: relative;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateY(200px);
+}
+
+.media .materi .pert2 h3 {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50px);
 }
 
 /* footer */
