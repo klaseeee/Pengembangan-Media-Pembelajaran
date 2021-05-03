@@ -231,7 +231,7 @@ body {
         transform: translateX(-54px);
     } 
 
-    .media .materi {
+    .media .materi .pert1, .media .materi .pert2 {
         display: flex;
         flex-direction: column;
     }
@@ -239,5 +239,6 @@ body {
     .media .materi iframe {
         width: 80%;
         height: 30%;
+        margin-top: 10px;
     }
 }
