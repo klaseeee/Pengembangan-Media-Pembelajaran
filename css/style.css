@@ -47,10 +47,6 @@ nav {
     transform: translateY(-10px);
 }
 
-.leftnav li {
-    /* margin: 0 15px; */
-}
-
 .leftnav li a {
     text-decoration: none;
     color: black;
