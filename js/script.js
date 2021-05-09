@@ -1,3 +1,8 @@
+const tombol = document.querySelector('.button');
+tombol.addEventListener('click', function() {
+    window.location.href="#utama";
+});
+
 // menu toggle
 const menuToggle = document.querySelector('.menu-toggle input');
 const nav = document.querySelector('nav ul');
