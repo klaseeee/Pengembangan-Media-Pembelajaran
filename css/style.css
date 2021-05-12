@@ -97,7 +97,8 @@ nav {
     background-color: rgb(243, 34, 34);
     text-align: center;
     line-height: 40px;
-    box-shadow: 2px 2px 2px;
+    box-shadow: 2px 2px 2px black;
+    color: white;
 }
 
 .button a {
