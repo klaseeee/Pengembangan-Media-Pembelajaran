@@ -179,7 +179,7 @@ body {
         position: absolute;
         bottom: 30%;
         left: 29%;
-        box-shadow: 2px 2px 2px;
+        box-shadow: 2px 2px 2px black;
     }
 
     .container {
@@ -218,7 +218,7 @@ body {
         /* border: 1px solid black; */
         /* height: 100vh; */
         position: absolute;
-        transform: translate(170px, 35px);
+        transform: translate(170px, 40px);
         /* border: 1px solid black; */
     }
 
@@ -228,8 +228,12 @@ body {
     }
 
     .container .teks li:nth-child(3) {
-        transform: translateX(-54px);
+        transform: translate(-54px, 10px);
     } 
+
+    .media {
+        min-height: 170vh;
+    }
 
     .media .materi .pert1, .media .materi .pert2 {
         display: flex;
@@ -237,8 +241,8 @@ body {
     }
 
     .media .materi iframe {
-        width: 80%;
-        height: 30%;
+        width: 75%;
+        height: 80%;
         margin-top: 20px;
     }
 }
